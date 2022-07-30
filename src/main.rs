@@ -101,7 +101,7 @@ async fn download_webtoon(title: String, start: i32, end: i32) -> Result<(), ()>
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     //download_webtoon("연애혁명".to_string(), 1, 1).await.unwrap();
-    
+
     // Window custom settings
     let settings = Settings {
         window: window::Settings {
