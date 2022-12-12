@@ -1,4 +1,4 @@
-#[windows_subsystem = "windows"]
+#![windows_subsystem = "windows"]
 
 use std::ffi::CString;
 use user32::MessageBoxW;
